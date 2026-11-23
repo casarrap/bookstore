@@ -56,5 +56,23 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="schema" />
+    <Folder Include="schema\tables" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="schema\tables\address.sql" />
+    <Build Include="schema\tables\address_status.sql" />
+    <Build Include="schema\tables\author.sql" />
+    <Build Include="schema\tables\book.sql" />
+    <Build Include="schema\tables\book_languaje.sql" />
+    <Build Include="schema\tables\country.sql" />
+    <Build Include="schema\tables\cust_order.sql" />
+    <Build Include="schema\tables\customer.sql" />
+    <Build Include="schema\tables\customer_address.sql" />
+    <Build Include="schema\tables\order_history.sql" />
+    <Build Include="schema\tables\order_line.sql" />
+    <Build Include="schema\tables\order_status.sql" />
+    <Build Include="schema\tables\publisher.sql" />
+    <Build Include="schema\tables\shipping_method.sql" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,6 @@
+C:\Users\rafae\source\repos\BookStore\bin\Release\BookStore.dacpac
+C:\Users\rafae\source\repos\BookStore\bin\Release\BookStore.dll
+C:\Users\rafae\source\repos\BookStore\bin\Release\BookStore.pdb
+C:\Users\rafae\source\repos\BookStore\obj\Release\BookStore.sqlproj.AssemblyReference.cache
+C:\Users\rafae\source\repos\BookStore\obj\Release\BookStore.dll
+C:\Users\rafae\source\repos\BookStore\obj\Release\BookStore.pdb
